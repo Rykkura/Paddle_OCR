@@ -57,7 +57,7 @@ Train:
         name: SimpleDataSet
         data_dir: ./img_crop
         label_file_list:
-            - ./train_label.txt
+            - ./crop_label.txt
         ratio_list:
             - 1
         transforms:
@@ -89,7 +89,7 @@ Eval:
         name: SimpleDataSet
         data_dir: ./img_crop
         label_file_list:
-            - ./train_label.txt
+            - ./crop_label.txt
         ratio_list:
             - 1
         transforms:
